@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>View Index de Pessoa</h1>
+    <ul>
+        <li><a asp-controller="Pessoa" asp-action="Salvar"> Rota para SALVAR </a></li>
+        <li><a asp-controller="Home" asp-action="Index"> Rota para HOME </a></li>
+    </ul>
+    
+    <form method="get" asp-action="Salvar1" asp-controller="Pessoa">
+        <input name="nome"/>
+        <input name="email"/>
+        <button type="submit">ENVIAR</button>
+    </form>
+
+</body>
+</html>
