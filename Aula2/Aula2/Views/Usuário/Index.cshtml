@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<div class="container">
+    <form method="post" asp-controller="Usuário" asp-action="Logar">
+        <div class="form-group col-12">
+            <label>Usuário</label>
+            <input type="text" name="usuario" class="form-control" />
+        </div>
+        <div class="form-group col-12">
+            <label>Senha</label>
+            <input type="password" name="senha" class="form-control" />
+        </div>
+        <div class="form-group col-12">
+            <button type="submit" class="btn btn-success">Logar</button>
+        </div>
+        <span>@ViewBag.mensagem</span>
+    </form>
+</div>
