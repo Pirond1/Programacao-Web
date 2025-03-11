@@ -6,7 +6,8 @@ public class ContextoClinicaFactory : IDesignTimeDbContextFactory<ContextoClinic
     public ContextoClinica CreateDbContext(string[] args)
     {
         var optionsBuilder = new DbContextOptionsBuilder<ContextoClinica>();
-        optionsBuilder.UseSqlServer("Server=PC-SMARTGAMER; Database=ProjetoClinica; integrated security=true; TrustServerCertificate=True");
+        //Server -> LAB10-15 ou PC-SMARTGAMER
+        optionsBuilder.UseSqlServer("Server=LAB10-15; Database=ProjetoClinica; integrated security=true; TrustServerCertificate=True");
 
     return new ContextoClinica(optionsBuilder.Options);
     }

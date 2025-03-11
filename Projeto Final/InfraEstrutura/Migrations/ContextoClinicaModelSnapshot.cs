@@ -140,6 +140,35 @@ namespace InfraEstrutura.Migrations
                     b.ToTable("Funcionario", (string)null);
                 });
 
+            modelBuilder.Entity("Entidades.Login", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<int>("idFuncionario")
+                        .HasColumnType("int");
+
+                    b.Property<string>("senha")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("usuario")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("idFuncionario")
+                        .IsUnique();
+
+                    b.ToTable("Login", (string)null);
+                });
+
             modelBuilder.Entity("Entidades.Pagamento", b =>
                 {
                     b.Property<int>("id")
@@ -236,6 +265,18 @@ namespace InfraEstrutura.Migrations
                     b.Navigation("area");
                 });
 
+            modelBuilder.Entity("Entidades.Login", b =>
+                {
+                    b.HasOne("Entidades.Funcionario", "funcionario")
+                        .WithOne("login")
+                        .HasForeignKey("Entidades.Login", "idFuncionario")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired()
+                        .HasConstraintName("FK_Login_Funcionario");
+
+                    b.Navigation("funcionario");
+                });
+
             modelBuilder.Entity("Entidades.Servico", b =>
                 {
                     b.HasOne("Entidades.Area", "area")
@@ -263,6 +304,9 @@ namespace InfraEstrutura.Migrations
             modelBuilder.Entity("Entidades.Funcionario", b =>
                 {
                     b.Navigation("consultas");
+
+                    b.Navigation("login")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Entidades.Pagamento", b =>

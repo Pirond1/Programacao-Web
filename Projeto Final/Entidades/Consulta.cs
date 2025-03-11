@@ -11,6 +11,7 @@ namespace Entidades
         public int id { get; set; }
         public int horas { get; set; }
         public DateTime dataConsulta { get; set; }
+        public decimal valorTotal { get; set; }
         public int idServico { get; set; }
         public int idCliente { get; set; }
         public int idFuncionario { get; set; }

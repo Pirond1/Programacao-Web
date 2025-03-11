@@ -10,3 +10,15 @@ C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\refint\Entidades.dll
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\Entidades.pdb
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\ref\Entidades.dll
+C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\bin\Debug\net8.0\Entidades.deps.json
+C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\bin\Debug\net8.0\Entidades.dll
+C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\bin\Debug\net8.0\Entidades.pdb
+C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\Entidades.AssemblyInfo.cs
+C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\Entidades.sourcelink.json
+C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\Entidades.dll
+C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\refint\Entidades.dll
+C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\Entidades.pdb
+C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\ref\Entidades.dll
