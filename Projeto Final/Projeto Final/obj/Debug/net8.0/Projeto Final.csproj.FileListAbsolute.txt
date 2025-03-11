@@ -1,0 +1,35 @@
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\bin\Debug\net8.0\appsettings.json
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\bin\Debug\net8.0\Projeto Final.staticwebassets.runtime.json
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\bin\Debug\net8.0\Projeto Final.staticwebassets.endpoints.json
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\bin\Debug\net8.0\Projeto Final.exe
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\bin\Debug\net8.0\Projeto Final.deps.json
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\bin\Debug\net8.0\Projeto Final.runtimeconfig.json
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\bin\Debug\net8.0\Projeto Final.dll
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\bin\Debug\net8.0\Projeto Final.pdb
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\Projeto Final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\Projeto Final.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\Projeto Final.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\Projeto Final.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\Projeto Final.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\Projeto Final.RazorAssemblyInfo.cache
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\Projeto Final.RazorAssemblyInfo.cs
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\Projeto Final.sourcelink.json
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\scopedcss\bundle\Projeto Final.styles.css
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\scopedcss\projectbundle\Projeto Final.bundle.scp.css
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\staticwebassets\msbuild.Projeto Final.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\staticwebassets\msbuild.Projeto Final.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\staticwebassets\msbuild.build.Projeto Final.props
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Projeto Final.props
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Projeto Final.props
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\Projeto Final.dll
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\refint\Projeto Final.dll
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\Projeto Final.pdb
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\Projeto Final.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Projeto Final\obj\Debug\net8.0\ref\Projeto Final.dll

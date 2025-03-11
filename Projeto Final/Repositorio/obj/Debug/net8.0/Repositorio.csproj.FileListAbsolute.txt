@@ -1,0 +1,12 @@
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Repositorio\bin\Debug\net8.0\Repositorio.deps.json
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Repositorio\bin\Debug\net8.0\Repositorio.dll
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Repositorio\bin\Debug\net8.0\Repositorio.pdb
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Repositorio\obj\Debug\net8.0\Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Repositorio\obj\Debug\net8.0\Repositorio.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Repositorio\obj\Debug\net8.0\Repositorio.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Repositorio\obj\Debug\net8.0\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Repositorio\obj\Debug\net8.0\Repositorio.sourcelink.json
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Repositorio\obj\Debug\net8.0\Repositorio.dll
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Repositorio\obj\Debug\net8.0\refint\Repositorio.dll
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Repositorio\obj\Debug\net8.0\Repositorio.pdb
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Repositorio\obj\Debug\net8.0\ref\Repositorio.dll
