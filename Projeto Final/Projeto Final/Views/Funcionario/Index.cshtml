@@ -1,0 +1,63 @@
+﻿@model ProjetoFinal.DTOs.FuncionarioDTO
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Funcionário</h1>
+
+<form asp-action="Salvar" asp-controller="Funcionario" method="post">
+    <input type="hidden" asp-for="id" />
+
+    <div class="form-group">
+        <label asp-for="nome"></label>
+        <input type="text" asp-for="nome" class="form-control" />
+        <span class="text-danger" asp-validation-for="nome">
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="usuario"></label>
+        <input type="text" asp-for="usuario" class="form-control" />
+        <span class="text-danger" asp-validation-for="usuario">
+
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="senha"></label>
+        <input asp-for="senha" type="password" class="form-control" />
+        <span class="text-danger" asp-validation-for="senha"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="salario"></label>
+        <input asp-for="salario" type="number" class="form-control" />
+        <span class="text-danger" asp-validation-for="salario"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="dataNascimento"></label>
+        <input asp-for="dataNascimento" type="date" class="form-control" />
+        <span class="text-danger" asp-validation-for="dataNascimento"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="idArea"></label>
+        <select asp-for="idArea" class="form-control">
+            <option value="">Escolha uma categoria</option>
+            <option value="1">Área</option>
+        </select>
+        <span class="text-danger" asp-validation-for="idArea"></span>
+    </div>
+
+    <div>
+        <span class="@ViewBag.classe">@ViewBag.mensagem</span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">
+            Salvar
+        </button>
+    </div>
+
+</form>

@@ -1,0 +1,44 @@
+﻿@model ProjetoFinal.DTOs.ServicoDTO
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Serviço</h1>
+
+<form asp-action="Salvar" asp-controller="Servico" method="post">
+    <input type="hidden" asp-for="id" />
+
+    <div class="form-group">
+        <label asp-for="descricao"></label>
+        <input type="text" asp-for="descricao" class="form-control" />
+        <span class="text-danger" asp-validation-for="descricao">
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="valorHora"></label>
+        <input asp-for="valorHora" type="number" class="form-control" />
+        <span class="text-danger" asp-validation-for="valorHora"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="idArea"></label>
+        <select asp-for="idArea" class="form-control">
+            <option value="">Escolha uma categoria</option>
+            <option value="1">Área</option>
+        </select>
+        <span class="text-danger" asp-validation-for="idArea"></span>
+    </div>
+
+    <div>
+        <span class="@ViewBag.classe">@ViewBag.mensagem</span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">
+            Salvar
+        </button>
+    </div>
+
+</form>
+

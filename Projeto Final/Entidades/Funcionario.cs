@@ -17,6 +17,6 @@ namespace Entidades
         public int idArea { get; set; }
 
         public virtual Area area { get; set; }
-        public virtual ICollection<Consulta> consultas { get; set; } = new HashSet<Consulta>();
+        public virtual ICollection<ConsultaFuncionario> consultaFuncionarios { get; set; }
     }
 }

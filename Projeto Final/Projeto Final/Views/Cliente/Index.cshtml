@@ -1,0 +1,48 @@
+﻿@model ProjetoFinal.DTOs.ClienteDTO
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Cliente</h1>
+
+<form asp-action="Salvar" asp-controller="Cliente" method="post">
+    <input type="hidden" asp-for="id" />
+
+    <div class="form-group">
+        <label asp-for="nome"></label>
+        <input type="text" asp-for="nome" class="form-control" />
+        <span class="text-danger" asp-validation-for="nome">
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="cpf"></label>
+        <input type="text" asp-for="cpf" class="form-control" />
+        <span class="text-danger" asp-validation-for="cpf">
+
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="telefone"></label>
+        <input asp-for="telefone" type="text" class="form-control" />
+        <span class="text-danger" asp-validation-for="telefone"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="dataNascimento"></label>
+        <input asp-for="dataNascimento" type="date" class="form-control" />
+        <span class="text-danger" asp-validation-for="dataNascimento"></span>
+    </div>
+
+    <div>
+        <span class="@ViewBag.classe">@ViewBag.mensagem</span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">
+            Salvar
+        </button>
+    </div>
+
+</form>

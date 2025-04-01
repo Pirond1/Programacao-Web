@@ -7,4 +7,16 @@
     <RootNamespace>Projeto_Final</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
+    <ProjectReference Include="..\InfraEstrutura\InfraEstrutura.csproj" />
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
+    <ProjectReference Include="..\ProjetoFinal.DTOs\ProjetoFinal.DTOs.csproj" />
+    <ProjectReference Include="..\Repositorio\Repositorio.csproj" />
+  </ItemGroup>
+
 </Project>

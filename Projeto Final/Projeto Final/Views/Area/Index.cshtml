@@ -1,0 +1,29 @@
+﻿@model ProjetoFinal.DTOs.AreaDTO
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Área</h1>
+
+<form asp-action="Salvar" asp-controller="Area" method="post">
+    <input type="hidden" asp-for="id" />
+
+    <div class="form-group">
+        <label asp-for="descricao"></label>
+        <input type="text" asp-for="descricao" class="form-control" />
+        <span class="text-danger" asp-validation-for="descricao">
+        </span>
+    </div>
+
+    <div>
+        <span class="@ViewBag.classe">@ViewBag.mensagem</span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">
+            Salvar
+        </button>
+    </div>
+</form>
+

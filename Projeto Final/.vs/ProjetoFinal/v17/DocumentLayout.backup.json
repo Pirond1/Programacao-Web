@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71121022-A8F3-4C29-848B-5A6BED65099E}|ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projetofinal.dtos\\servicodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71121022-A8F3-4C29-848B-5A6BED65099E}|ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj|solutionrelative:projetofinal.dtos\\servicodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\views\\servico\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\views\\servico\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Views\\Servico\\Index.cshtml",
+              "RelativeDocumentMoniker": "Projeto Final\\Views\\Servico\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Views\\Servico\\Index.cshtml",
+              "RelativeToolTip": "Projeto Final\\Views\\Servico\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T21:11:25.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicoController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Controllers\\ServicoController.cs",
+              "RelativeDocumentMoniker": "Projeto Final\\Controllers\\ServicoController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Controllers\\ServicoController.cs",
+              "RelativeToolTip": "Projeto Final\\Controllers\\ServicoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T21:11:04.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServicoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ServicoDTO.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal.DTOs\\ServicoDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ServicoDTO.cs",
+              "RelativeToolTip": "ProjetoFinal.DTOs\\ServicoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T21:09:40.377Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

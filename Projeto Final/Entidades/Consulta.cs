@@ -14,12 +14,12 @@ namespace Entidades
         public decimal valorTotal { get; set; }
         public int idServico { get; set; }
         public int idCliente { get; set; }
-        public int idFuncionario { get; set; }
         public int idPagamento { get; set; }
+
+        public virtual ICollection<ConsultaFuncionario> consultaFuncionarios { get; set; }
 
         public virtual Servico servico { get; set; }
         public virtual Cliente cliente { get; set; }
-        public virtual Funcionario funcionario { get; set; }
         public virtual Pagamento pagamento { get; set; }
     }
 }
