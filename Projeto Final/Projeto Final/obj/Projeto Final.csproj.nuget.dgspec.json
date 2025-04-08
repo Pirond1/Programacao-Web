@@ -50,6 +50,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -121,25 +127,29 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
@@ -190,7 +200,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj"
+              },
+              "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -208,6 +225,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -269,8 +292,8 @@
               "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj": {
                 "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj"
               },
-              "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repositorio.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repositorio.csproj"
+              "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repository.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repository.csproj"
               }
             }
           }
@@ -291,9 +314,19 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -365,6 +398,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -385,12 +424,12 @@
         }
       }
     },
-    "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repositorio.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repositorio.csproj",
-        "projectName": "Repositorio",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repositorio.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repository.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\obj\\",
         "projectStyle": "PackageReference",
@@ -413,7 +452,17 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj"
+              },
+              "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\InfraEstrutura.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\InfraEstrutura.csproj"
+              },
+              "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Interfaces.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -431,6 +480,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

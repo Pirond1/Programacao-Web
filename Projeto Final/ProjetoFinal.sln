@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraEstrutura", "InfraEstr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{1C260819-A80C-4F3E-84D0-EDBF806CDE55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositorio", "Repositorio\Repositorio.csproj", "{BB5544CE-DB19-4DCA-B902-9E73D6355726}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repositorio\Repository.csproj", "{BB5544CE-DB19-4DCA-B902-9E73D6355726}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoFinal.DTOs", "ProjetoFinal.DTOs\ProjetoFinal.DTOs.csproj", "{71121022-A8F3-4C29-848B-5A6BED65099E}"
 EndProject

@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71121022-A8F3-4C29-848B-5A6BED65099E}|ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projetofinal.dtos\\servicodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71121022-A8F3-4C29-848B-5A6BED65099E}|ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj|solutionrelative:projetofinal.dtos\\servicodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\configuration\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\configuration\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\views\\servico\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\views\\servico\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\models\\areamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\models\\areamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C260819-A80C-4F3E-84D0-EDBF806CDE55}|Interfaces\\Interfaces.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\interfaces\\models\\iareamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C260819-A80C-4F3E-84D0-EDBF806CDE55}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\models\\iareamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\controllers\\areacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\controllers\\areacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Configuration\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Projeto Final\\Configuration\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Configuration\\MappingProfile.cs",
+              "RelativeToolTip": "Projeto Final\\Configuration\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:51:51.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Views\\Servico\\Index.cshtml",
-              "RelativeDocumentMoniker": "Projeto Final\\Views\\Servico\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Views\\Servico\\Index.cshtml",
-              "RelativeToolTip": "Projeto Final\\Views\\Servico\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T21:11:25.281Z",
+              "Title": "AreaModels.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Models\\AreaModels.cs",
+              "RelativeDocumentMoniker": "Projeto Final\\Models\\AreaModels.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Models\\AreaModels.cs",
+              "RelativeToolTip": "Projeto Final\\Models\\AreaModels.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:45:29.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAreaModels.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Models\\IAreaModels.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Models\\IAreaModels.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Models\\IAreaModels.cs",
+              "RelativeToolTip": "Interfaces\\Models\\IAreaModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:45:13.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ServicoController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Controllers\\ServicoController.cs",
-              "RelativeDocumentMoniker": "Projeto Final\\Controllers\\ServicoController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Controllers\\ServicoController.cs",
-              "RelativeToolTip": "Projeto Final\\Controllers\\ServicoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Program.cs",
+              "RelativeDocumentMoniker": "Projeto Final\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Program.cs",
+              "RelativeToolTip": "Projeto Final\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T21:11:04.043Z",
+              "WhenOpened": "2025-04-08T20:43:06.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServicoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ServicoDTO.cs",
-              "RelativeDocumentMoniker": "ProjetoFinal.DTOs\\ServicoDTO.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ServicoDTO.cs",
-              "RelativeToolTip": "ProjetoFinal.DTOs\\ServicoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AreaController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Controllers\\AreaController.cs",
+              "RelativeDocumentMoniker": "Projeto Final\\Controllers\\AreaController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Controllers\\AreaController.cs",
+              "RelativeToolTip": "Projeto Final\\Controllers\\AreaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T21:09:40.377Z",
+              "WhenOpened": "2025-04-08T20:15:35.978Z",
               "EditorCaption": ""
             }
           ]

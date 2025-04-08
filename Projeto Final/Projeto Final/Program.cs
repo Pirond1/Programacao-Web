@@ -1,7 +1,25 @@
+using InfraEstrutura.Contexto;
+using Interfaces.Models;
+using Interfaces.Repository;
+using Microsoft.EntityFrameworkCore;
+using Projeto_Final.Models;
+using Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Registrar o ProjetoClinica no contêiner de Injeção de Dependência
+builder.Services.AddDbContext<ContextoClinica>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddScoped<IAreaModels, AreaModels>();
+builder.Services.AddScoped<IAreaRepository, AreaRepository>();
+
 
 var app = builder.Build();
 

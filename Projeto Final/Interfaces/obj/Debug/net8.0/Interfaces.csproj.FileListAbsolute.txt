@@ -22,3 +22,9 @@ C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Interface
 C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Interfaces\obj\Debug\net8.0\refint\Interfaces.dll
 C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Interfaces\obj\Debug\net8.0\Interfaces.pdb
 C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Interfaces\obj\Debug\net8.0\ref\Interfaces.dll
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Interfaces\bin\Debug\net8.0\Entidades.dll
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Interfaces\bin\Debug\net8.0\ProjetoFinal.DTOs.dll
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Interfaces\bin\Debug\net8.0\Entidades.pdb
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Interfaces\bin\Debug\net8.0\ProjetoFinal.DTOs.pdb
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Interfaces\obj\Debug\net8.0\Interfaces.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Interfaces\obj\Debug\net8.0\Interfaces.csproj.Up2Date

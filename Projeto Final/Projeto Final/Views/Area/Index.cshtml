@@ -6,6 +6,13 @@
 
 <h1>Área</h1>
 
+<div class="col-3">
+    <a asp-action="Listar" asp-controller="Area"
+       class="btn btn-info">
+        Listar
+    </a>
+</div>
+
 <form asp-action="Salvar" asp-controller="Area" method="post">
     <input type="hidden" asp-for="id" />
 

@@ -17,7 +17,7 @@ namespace InfraEstrutura.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.3")
+                .HasAnnotation("ProductVersion", "9.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -88,26 +88,39 @@ namespace InfraEstrutura.Migrations
                     b.Property<int>("idCliente")
                         .HasColumnType("int");
 
-                    b.Property<int>("idFuncionario")
-                        .HasColumnType("int");
-
                     b.Property<int>("idPagamento")
                         .HasColumnType("int");
 
                     b.Property<int>("idServico")
                         .HasColumnType("int");
 
+                    b.Property<decimal>("valorTotal")
+                        .HasColumnType("decimal(18,2)");
+
                     b.HasKey("id");
 
                     b.HasIndex("idCliente");
-
-                    b.HasIndex("idFuncionario");
 
                     b.HasIndex("idPagamento");
 
                     b.HasIndex("idServico");
 
                     b.ToTable("Consulta", (string)null);
+                });
+
+            modelBuilder.Entity("Entidades.ConsultaFuncionario", b =>
+                {
+                    b.Property<int>("consultaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("funcionarioId")
+                        .HasColumnType("int");
+
+                    b.HasKey("consultaId", "funcionarioId");
+
+                    b.HasIndex("funcionarioId");
+
+                    b.ToTable("consultafuncionarios");
                 });
 
             modelBuilder.Entity("Entidades.Funcionario", b =>
@@ -133,40 +146,19 @@ namespace InfraEstrutura.Migrations
                         .HasPrecision(8, 2)
                         .HasColumnType("decimal(8,2)");
 
+                    b.Property<string>("senha")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("usuario")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("id");
 
                     b.HasIndex("idArea");
 
                     b.ToTable("Funcionario", (string)null);
-                });
-
-            modelBuilder.Entity("Entidades.Login", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
-
-                    b.Property<int>("idFuncionario")
-                        .HasColumnType("int");
-
-                    b.Property<string>("senha")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("usuario")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("id");
-
-                    b.HasIndex("idFuncionario")
-                        .IsUnique();
-
-                    b.ToTable("Login", (string)null);
                 });
 
             modelBuilder.Entity("Entidades.Pagamento", b =>
@@ -223,13 +215,6 @@ namespace InfraEstrutura.Migrations
                         .IsRequired()
                         .HasConstraintName("FK_Consulta_Cliente");
 
-                    b.HasOne("Entidades.Funcionario", "funcionario")
-                        .WithMany("consultas")
-                        .HasForeignKey("idFuncionario")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired()
-                        .HasConstraintName("FK_Consulta_Funcionario");
-
                     b.HasOne("Entidades.Pagamento", "pagamento")
                         .WithMany("consultas")
                         .HasForeignKey("idPagamento")
@@ -246,11 +231,30 @@ namespace InfraEstrutura.Migrations
 
                     b.Navigation("cliente");
 
-                    b.Navigation("funcionario");
-
                     b.Navigation("pagamento");
 
                     b.Navigation("servico");
+                });
+
+            modelBuilder.Entity("Entidades.ConsultaFuncionario", b =>
+                {
+                    b.HasOne("Entidades.Consulta", "consulta")
+                        .WithMany("consultaFuncionarios")
+                        .HasForeignKey("consultaId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired()
+                        .HasConstraintName("FK_ConsultaFuncionario_Consulta");
+
+                    b.HasOne("Entidades.Funcionario", "funcionario")
+                        .WithMany("consultaFuncionarios")
+                        .HasForeignKey("funcionarioId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired()
+                        .HasConstraintName("FK_ConsultaFuncionario_Funcionario");
+
+                    b.Navigation("consulta");
+
+                    b.Navigation("funcionario");
                 });
 
             modelBuilder.Entity("Entidades.Funcionario", b =>
@@ -263,18 +267,6 @@ namespace InfraEstrutura.Migrations
                         .HasConstraintName("FK_Funcionario_Area");
 
                     b.Navigation("area");
-                });
-
-            modelBuilder.Entity("Entidades.Login", b =>
-                {
-                    b.HasOne("Entidades.Funcionario", "funcionario")
-                        .WithOne("login")
-                        .HasForeignKey("Entidades.Login", "idFuncionario")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired()
-                        .HasConstraintName("FK_Login_Funcionario");
-
-                    b.Navigation("funcionario");
                 });
 
             modelBuilder.Entity("Entidades.Servico", b =>
@@ -301,12 +293,14 @@ namespace InfraEstrutura.Migrations
                     b.Navigation("consultas");
                 });
 
+            modelBuilder.Entity("Entidades.Consulta", b =>
+                {
+                    b.Navigation("consultaFuncionarios");
+                });
+
             modelBuilder.Entity("Entidades.Funcionario", b =>
                 {
-                    b.Navigation("consultas");
-
-                    b.Navigation("login")
-                        .IsRequired();
+                    b.Navigation("consultaFuncionarios");
                 });
 
             modelBuilder.Entity("Entidades.Pagamento", b =>

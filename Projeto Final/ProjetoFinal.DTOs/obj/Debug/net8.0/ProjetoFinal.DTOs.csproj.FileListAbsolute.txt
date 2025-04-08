@@ -10,3 +10,4 @@ C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\o
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\obj\Debug\net8.0\refint\ProjetoFinal.DTOs.dll
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\obj\Debug\net8.0\ProjetoFinal.DTOs.pdb
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\obj\Debug\net8.0\ref\ProjetoFinal.DTOs.dll
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\obj\Debug\net8.0\ProjetoFinal.DTOs.csproj.AssemblyReference.cache

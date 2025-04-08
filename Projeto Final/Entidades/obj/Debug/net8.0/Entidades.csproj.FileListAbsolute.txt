@@ -22,3 +22,4 @@ C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades
 C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\refint\Entidades.dll
 C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\Entidades.pdb
 C:\Users\gustavopirondi\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\ref\Entidades.dll
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\Entidades\obj\Debug\net8.0\Entidades.csproj.AssemblyReference.cache
