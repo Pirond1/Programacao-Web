@@ -9,6 +9,10 @@ namespace ProjetoFinal.Configuration
         public MappingProfile()
         {
             CreateMap<Area, AreaDTO>().ReverseMap();
+            CreateMap<Cliente, ClienteDTO>().ReverseMap();
+            CreateMap<Funcionario, FuncionarioDTO>().ReverseMap();
+            CreateMap<Pagamento, PagamentoDTO>().ReverseMap();
+            CreateMap<Servico, ServicoDTO>().ReverseMap();
         }
     }
 }

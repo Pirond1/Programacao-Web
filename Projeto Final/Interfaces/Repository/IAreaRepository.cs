@@ -11,5 +11,12 @@ namespace Interfaces.Repository
     {
         IEnumerable<Area> getAll();
         Area addArea(Area area);
+
+        void delete(int id);
+
+        Area GetArea(int id);
+        Area updateArea(Area area);
+
+        Area recuperar(Func<Area, bool> expressao);
     }
 }

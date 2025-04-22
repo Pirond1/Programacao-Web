@@ -26,27 +26,75 @@ namespace Projeto_Final.Controllers
             return View(lista);
         }
 
+        public ActionResult Excluir(int id)
+        {
+
+            try
+            {
+                this.models.delete(id);
+                ViewBag.mensagem = "Exclusão efetuada com sucesso!";
+                ViewBag.classe = "alert-success";
+            }
+            catch (Exception ex)
+            {
+
+                ViewBag.mensagem = "Não foi possível excluir o item!";
+                ViewBag.classe = "alert-danger";
+            }
+
+            var lista = models.getAll();
+            return View("Listar", lista);
+
+
+            //redirecionando pra a action (metodo) Listar
+            // return RedirectToAction("Listar");
+        }
+
+        public IActionResult PreAlterar(int id)
+        {
+            var objDto = this.models.GetArea(id);
+            return View("Index", objDto);
+
+        }
+
         [HttpPost]
         public IActionResult Salvar(AreaDTO dto)
         {
             try
-            {           
+            {
                 if (ModelState.IsValid)
                 {
-                    dto = this.models.save(dto);
-                    ViewBag.classe = "text-success";
-                    ViewBag.mensagem = "Dados salvos com sucesso!";
+                    var produtomesmaDescricao =
+                        this.models.recuperar(p => p.descricao == dto.descricao
+                                                   && ((p.id != dto.id && dto.id != 0)
+                                                            || dto.id == 0));
+
+                    if (produtomesmaDescricao == null)
+                    {
+                        // executar model (salvar)
+                        dto = this.models.save(dto);
+                        ViewBag.classe = "alert-success";
+                        ViewBag.mensagem = "Dados salvos com sucesso!";
+                    }
+                    else
+                    {
+                        ViewBag.classe = "alert-danger";
+                        ViewBag.mensagem = "Não foi possível salvar!" +
+                            " Já existe um produto com esta descrição";
+                    }
                 }
                 else
                 {
-                    ViewBag.classe = "text-danger";
+                    ViewBag.classe = "alert-danger";
                     ViewBag.mensagem = "Não foi possível salvar os dados!";
                 }
             }
             catch (Exception ex)
             {
+
                 ViewBag.classe = "alert-danger";
-                ViewBag.mensagem = "Erro ao salvar os dados!" + ex.Message;
+                ViewBag.mensagem = "Erro ao salvar os dados! " +
+                    ex.Message;
             }
 
             return View("Index", dto);

@@ -20,8 +20,24 @@
             <tr>
                 <th scope="row">@item.id</th>
                 <td>@item.descricao</td>
-                <td><a class="btn btn-success">Alterar</a></td>
-                <td><a class="btn btn-danger">Excluir</a></td>
+                <td>
+                    <a asp-action="PreAlterar"
+                       asp-controller="Area"
+                       asp-route-id="@item.id"
+                       class="btn btn-success">Alterar</a>
+                </td>
+                <td>
+                    <form asp-action="Excluir" asp-controller="Area"
+                          asp-route-id="@item.id" method="get">
+
+                        <button type="submit" class="btn btn-danger"
+                                onclick="return confirm('Confirma a exclusão?') ">
+                            Excluir
+                        </button>
+                    </form>
+
+
+                </td>
             </tr>
         }
     </tbody>

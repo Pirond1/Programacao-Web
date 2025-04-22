@@ -1,6 +1,7 @@
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\bin\Debug\net8.0\ProjetoFinal.DTOs.deps.json
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\bin\Debug\net8.0\ProjetoFinal.DTOs.dll
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\bin\Debug\net8.0\ProjetoFinal.DTOs.pdb
+C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\obj\Debug\net8.0\ProjetoFinal.DTOs.csproj.AssemblyReference.cache
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\obj\Debug\net8.0\ProjetoFinal.DTOs.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\obj\Debug\net8.0\ProjetoFinal.DTOs.AssemblyInfoInputs.cache
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\obj\Debug\net8.0\ProjetoFinal.DTOs.AssemblyInfo.cs
@@ -10,4 +11,3 @@ C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\o
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\obj\Debug\net8.0\refint\ProjetoFinal.DTOs.dll
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\obj\Debug\net8.0\ProjetoFinal.DTOs.pdb
 C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\obj\Debug\net8.0\ref\ProjetoFinal.DTOs.dll
-C:\Users\User\Documents\GitHub\Programacao-Web\Projeto Final\ProjetoFinal.DTOs\obj\Debug\net8.0\ProjetoFinal.DTOs.csproj.AssemblyReference.cache

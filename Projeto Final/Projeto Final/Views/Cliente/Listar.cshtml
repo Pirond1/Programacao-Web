@@ -1,0 +1,50 @@
+﻿@model IEnumerable<ProjetoFinal.DTOs.ClienteDTO>
+@{
+    ViewData["Title"] = "Listar";
+}
+
+<h1>Listar</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Código</th>
+            <th scope="col">Nome</th>
+            <th scope="col">CPF</th>
+            <th scope="col">Telefone</th>
+            <th scope="col">Data de Nascimento</th>
+            <th scope="col">Alterar</th>
+            <th scope="col">Excluir</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.id</th>
+                <td>@item.nome</td>
+                <td>@item.cpf</td>
+                <td>@item.telefone</td>
+                <td>@item.dataNascimento</td>
+                <td>
+                    <a asp-action="PreAlterar"
+                       asp-controller="Cliente"
+                       asp-route-id="@item.id"
+                       class="btn btn-success">Alterar</a>
+                </td>
+                <td>
+                    <form asp-action="Excluir" asp-controller="Cliente"
+                          asp-route-id="@item.id" method="get">
+
+                        <button type="submit" class="btn btn-danger"
+                                onclick="return confirm('Confirma a exclusão?') ">
+                            Excluir
+                        </button>
+                    </form>
+
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

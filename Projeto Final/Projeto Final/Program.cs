@@ -20,6 +20,12 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<IAreaModels, AreaModels>();
 builder.Services.AddScoped<IAreaRepository, AreaRepository>();
 
+builder.Services.AddScoped<IClienteModels, ClienteModels>();
+builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+
+builder.Services.AddScoped<IFuncionarioModels, FuncionarioModels>();
+builder.Services.AddScoped<IFuncionarioRepository, FuncionarioRepository>();
+
 
 var app = builder.Build();
 
