@@ -10,7 +10,7 @@ namespace Projeto_Final.Controllers
         private IFuncionarioModels models;
         private IAreaModels areaModels;
 
-        public FuncionarioController(IFuncionarioModels models)
+        public FuncionarioController(IFuncionarioModels models, IAreaModels areaModels)
         {
             this.models = models;
             this.areaModels = areaModels;

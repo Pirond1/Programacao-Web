@@ -13,24 +13,24 @@ namespace ProjetoFinal.DTOs
 
         [Display(Name = "Nome")]
         [Required(ErrorMessage = "O Nome é obrigatória")]
-        public string nome { get; set; }
+        public string? nome { get; set; }
 
         [Display(Name = "Usuário")]
         [Required(ErrorMessage = "O Usuário é obrigatória")]
-        public string usuario { get; set; }
+        public string? usuario { get; set; }
 
         [Display(Name = "Senha")]
         [Required(ErrorMessage = "A senha é obrigatória")]
-        public string senha { get; set; }
+        public string? senha { get; set; }
 
         [Display(Name = "Salário")]
         [Required(ErrorMessage = "O Salário é obrigatória")]
         [Range(0, int.MaxValue, ErrorMessage = "O Valor deve ser Positivo")]
-        public decimal salario { get; set; }
+        public decimal? salario { get; set; }
 
         [Display(Name = "Data de Nascimento")]
         [Required(ErrorMessage = "A Data de Nascimento é obrigatória")]
-        public DateOnly dataNascimento { get; set; }
+        public DateOnly? dataNascimento { get; set; }
 
         [Display(Name = "Área")]
         [Required(ErrorMessage = "A Área é obrigatória")]

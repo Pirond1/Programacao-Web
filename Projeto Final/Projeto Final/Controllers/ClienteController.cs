@@ -8,11 +8,16 @@ namespace Projeto_Final.Controllers
     {
         private IClienteModels models;
 
+        public ClienteController(IClienteModels models)
+        {
+            this.models = models;
+        }
+
         public IActionResult Index()
         {
             ClienteDTO dto = new ClienteDTO();
             dto.id = 0;
-            return View();
+            return View(dto);
         }
 
         public ActionResult Listar()

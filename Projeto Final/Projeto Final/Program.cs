@@ -26,6 +26,12 @@ builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 builder.Services.AddScoped<IFuncionarioModels, FuncionarioModels>();
 builder.Services.AddScoped<IFuncionarioRepository, FuncionarioRepository>();
 
+builder.Services.AddScoped<IPagamentoModels, PagamentoModels>();
+builder.Services.AddScoped<IPagamentoRepository, PagamentoRepository>();
+
+builder.Services.AddScoped<IServicoModels, ServicoModels>();
+builder.Services.AddScoped<IServicoRepository, ServicoRepository>();
+
 
 var app = builder.Build();
 

@@ -5,6 +5,13 @@
 
 <h1>Pagamento</h1>
 
+<div class="col-3">
+    <a asp-action="Listar" asp-controller="Pagamento"
+       class="btn btn-info">
+        Listar
+    </a>
+</div>
+
 <form asp-action="Salvar" asp-controller="Pagamento" method="post">
     <input type="hidden" asp-for="id" />
 
@@ -19,10 +26,17 @@
         <span class="@ViewBag.classe">@ViewBag.mensagem</span>
     </div>
 
-    <div class="form-group">
-        <button type="submit" class="btn btn-success">
-            Salvar
-        </button>
+    <div class="form-group row mt-3">
+        <div class="col-3">
+            <button type="submit" class="btn btn-success">
+                Salvar
+            </button>
+        </div>
+        <div class="col-3">
+            <a asp-action="Index" asp-controller="Pagamento" class="btn btn-success">
+                Novo
+            </a>
+        </div>
     </div>
 </form>
 
