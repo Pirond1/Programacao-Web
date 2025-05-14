@@ -1,9 +1,11 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Projeto_Final.Models;
+using ProjetoFinal.Configuration;
 
 namespace Projeto_Final.Controllers;
 
+[SessionAuthorize]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;

@@ -1,9 +1,11 @@
 ﻿using Interfaces.Models;
 using Microsoft.AspNetCore.Mvc;
+using ProjetoFinal.Configuration;
 using ProjetoFinal.DTOs;
 
 namespace Projeto_Final.Controllers
 {
+    [SessionAuthorize]
     public class AreaController : Controller
     {
         private IAreaModels models;

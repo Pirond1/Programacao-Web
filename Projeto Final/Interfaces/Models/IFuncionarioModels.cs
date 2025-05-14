@@ -18,5 +18,7 @@ namespace Interfaces.Models
         FuncionarioDTO GetFuncionario(int id);
 
         FuncionarioDTO recuperar(Func<Funcionario, bool> expressao);
+
+        FuncionarioDTO validarLogin(string usuario, string senha);
     }
 }

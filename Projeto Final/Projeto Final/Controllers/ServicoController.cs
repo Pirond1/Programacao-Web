@@ -1,10 +1,12 @@
 ﻿using Interfaces.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using ProjetoFinal.Configuration;
 using ProjetoFinal.DTOs;
 
 namespace Projeto_Final.Controllers
 {
+    [SessionAuthorize]
     public class ServicoController : Controller
     {
         private IServicoModels models;

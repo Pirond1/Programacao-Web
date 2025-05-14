@@ -32,6 +32,8 @@ builder.Services.AddScoped<IPagamentoRepository, PagamentoRepository>();
 builder.Services.AddScoped<IServicoModels, ServicoModels>();
 builder.Services.AddScoped<IServicoRepository, ServicoRepository>();
 
+builder.Services.AddSession();
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
@@ -49,9 +51,10 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Funcionario}/{action=Login}/{id?}");
 
 app.Run();

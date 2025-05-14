@@ -17,6 +17,14 @@ namespace Projeto_Final.Models
             this.mapper = mapper;
         }
 
+        public FuncionarioDTO validarLogin(string usuario, string senha)
+        {
+            var usu =
+                repository.recuperar(p => p.usuario == usuario
+                && p.senha == senha);
+            return mapper.Map<FuncionarioDTO>(usu);
+        }
+
         public void delete(int id)
         {
             this.repository.delete(id);

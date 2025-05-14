@@ -1,10 +1,12 @@
 ﻿using Interfaces.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using ProjetoFinal.Configuration;
 using ProjetoFinal.DTOs;
 
 namespace Projeto_Final.Controllers
 {
+
     public class FuncionarioController : Controller
     {
         private IFuncionarioModels models;
@@ -28,6 +30,65 @@ namespace Projeto_Final.Controllers
             });
         }
 
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+
+        public IActionResult Logout()
+        {
+
+            //limpar a sessão
+            HttpContext.Session.Remove("nome_usuario");
+            HttpContext.Session.Remove("codigo_usuario");
+            HttpContext.Session.Clear();
+
+            //redirecionar para login
+            return RedirectToAction("Login", "Funcionario");
+        }
+
+
+        [HttpPost]
+        public IActionResult Logar(FuncionarioLoginDTO dto)
+        {
+
+            //validar Banco de dados
+            //model=>repositorio=>banco de dados
+            var usuarioDto = models.validarLogin(
+                            dto.usuario, dto.senha);
+
+            if (usuarioDto != null)
+            {
+                //encontrou
+
+                //inserir os dados na sessão
+                HttpContext.Session.SetString(
+                    "nome_usuario", usuarioDto.nome);
+                HttpContext.Session.SetInt32(
+                    "codigo_usuario", usuarioDto.id);
+
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                //não encontrou
+                ViewBag.mensagem = "Dados inválidos";
+                return View("Login");
+            }
+
+
+        }
+
+        public IActionResult Cadastrar()
+        {
+            FuncionarioDTO dto = new FuncionarioDTO();
+            dto.id = 0;
+            ViewBag.listaArea = carregaListaArea();
+            return View(dto);
+        }
+
+        [SessionAuthorize]
         public IActionResult Index()
         {
             FuncionarioDTO dto = new FuncionarioDTO();
@@ -36,12 +97,14 @@ namespace Projeto_Final.Controllers
             return View(dto);
         }
 
+        [SessionAuthorize]
         public ActionResult Listar()
         {
             var lista = models.getAll();
             return View(lista);
         }
 
+        [SessionAuthorize]
         public ActionResult Excluir(int id)
         {
 
@@ -66,6 +129,7 @@ namespace Projeto_Final.Controllers
             // return RedirectToAction("Listar");
         }
 
+        [SessionAuthorize]
         public IActionResult PreAlterar(int id)
         {
             var objDto = this.models.GetFuncionario(id);
