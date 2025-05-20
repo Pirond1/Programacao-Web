@@ -182,7 +182,12 @@ namespace Projeto_Final.Controllers
 
             ViewBag.listaArea = carregaListaArea();
 
-            return View("Index", dto);
+            if (HttpContext.Session.GetString("nome_usuario") != null)
+            {
+                return View("Index", dto);
+            }else
+                return View("Cadastrar", dto);
+
         }
     }
 }

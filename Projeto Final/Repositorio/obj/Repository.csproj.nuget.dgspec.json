@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repository.csproj": {}
+    "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\obj\\",
+        "projectPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\gustavopirondi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gustavopirondi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,13 +40,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -96,24 +91,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\InfraEstrutura.csproj": {
+    "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\InfraEstrutura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\InfraEstrutura.csproj",
+        "projectUniqueName": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\InfraEstrutura.csproj",
         "projectName": "InfraEstrutura",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\InfraEstrutura.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\obj\\",
+        "projectPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\InfraEstrutura.csproj",
+        "packagesPath": "C:\\Users\\gustavopirondi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gustavopirondi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -129,8 +125,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj"
+              "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -139,13 +135,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -196,24 +186,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Interfaces.csproj": {
+    "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Interfaces.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\gustavopirondi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gustavopirondi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -229,11 +220,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj"
+              "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj"
               },
-              "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj"
+              "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj": {
+                "projectPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj"
               }
             }
           }
@@ -242,13 +233,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -299,24 +284,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj": {
+    "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj",
+        "projectUniqueName": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj",
         "projectName": "ProjetoFinal.DTOs",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\obj\\",
+        "projectPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\ProjetoFinal.DTOs.csproj",
+        "packagesPath": "C:\\Users\\gustavopirondi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\ProjetoFinal.DTOs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gustavopirondi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -338,13 +324,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -395,24 +375,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repository.csproj": {
+    "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repository.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\obj\\",
+        "projectPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\Repository.csproj",
+        "packagesPath": "C:\\Users\\gustavopirondi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gustavopirondi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -428,14 +409,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj"
+              "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Entidades\\Entidades.csproj"
               },
-              "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\InfraEstrutura.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\InfraEstrutura.csproj"
+              "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\InfraEstrutura.csproj": {
+                "projectPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\InfraEstrutura\\InfraEstrutura.csproj"
               },
-              "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Interfaces.csproj"
+              "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\gustavopirondi\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Interfaces.csproj"
               }
             }
           }
@@ -444,13 +425,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -501,7 +476,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
