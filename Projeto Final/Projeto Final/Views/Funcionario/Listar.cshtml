@@ -5,50 +5,58 @@
 
 <h1>Listar</h1>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">Código</th>
-            <th scope="col">Nome</th>
-            <th scope="col">Usuário</th>
-            <th scope="col">Senha</th>
-            <th scope="col">Salário</th>
-            <th scope="col">Data de Nascimento</th>
-            <th scope="col">ID Área</th>
-            <th scope="col">Alterar</th>
-            <th scope="col">Excluir</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+<div class="list-actions">
+    <a asp-action="Index" asp-controller="Funcionario" class="btn btn-primary">
+        Novo
+    </a>
+</div>
+
+<div class="table-responsive">
+    <table class="list-table">
+        <thead>
             <tr>
-                <th scope="row">@item.id</th>
-                <td>@item.nome</td>
-                <td>@item.usuario</td>
-                <td>@item.senha</td>
-                <td>@item.salario</td>
-                <td>@item.dataNascimento</td>
-                <td>@item.idArea</td>
-                <td>
-                    <a asp-action="PreAlterar"
-                       asp-controller="Funcionario"
-                       asp-route-id="@item.id"
-                       class="btn btn-success">Alterar</a>
-                </td>
-                <td>
-                    <form asp-action="Excluir" asp-controller="Funcionario"
-                          asp-route-id="@item.id" method="get">
-
-                        <button type="submit" class="btn btn-danger"
-                                onclick="return confirm('Confirma a exclusão?') ">
-                            Excluir
-                        </button>
-                    </form>
-
-
-                </td>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>Usuário</th>
+                <th>Senha</th>
+                <th>Salário</th>
+                <th>Data de Nascimento</th>
+                <th>ID Área</th>
+                <th>Alterar</th>
+                <th>Excluir</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@item.id</th>
+                    <td>@item.nome</td>
+                    <td>@item.usuario</td>
+                    <td>@item.senha</td>
+                    <td>@item.salario</td>
+                    <td>@item.dataNascimento</td>
+                    <td>@item.idArea</td>
+                    <td>
+                        <a asp-action="PreAlterar"
+                           asp-controller="Funcionario"
+                           asp-route-id="@item.id"
+                           class="btn btn-edit">Alterar</a>
+                    </td>
+                    <td>
+                        <form asp-action="Excluir" asp-controller="Funcionario"
+                              asp-route-id="@item.id" method="get" class="delete-form">
+
+                            <button type="submit" class="btn btn-edit"
+                                    onclick="return confirm('Confirma a exclusão?') ">
+                                Excluir
+                            </button>
+                        </form>
+
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

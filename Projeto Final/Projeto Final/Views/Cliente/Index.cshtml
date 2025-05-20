@@ -1,13 +1,13 @@
 ﻿@model ProjetoFinal.DTOs.ClienteDTO
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Cliente";
 }
 
 <h1>Cliente</h1>
 
-<div class="col-3">
+<div class="form-actions mb-4">
     <a asp-action="Listar" asp-controller="Cliente"
-       class="btn btn-info">
+       class="btn btn-list">
         Listar
     </a>
 </div>
@@ -17,14 +17,14 @@
 
     <div class="form-group">
         <label asp-for="nome"></label>
-        <input type="text" asp-for="nome" class="form-control" />
+        <input type="text" asp-for="nome" class="form-control" placeholder="Nome" />
         <span class="text-danger" asp-validation-for="nome">
         </span>
     </div>
 
     <div class="form-group">
         <label asp-for="cpf"></label>
-        <input type="text" asp-for="cpf" class="form-control" />
+        <input type="text" asp-for="cpf" class="form-control" placeholder="000.000.000-00" />
         <span class="text-danger" asp-validation-for="cpf">
 
         </span>
@@ -32,7 +32,7 @@
 
     <div class="form-group">
         <label asp-for="telefone"></label>
-        <input asp-for="telefone" type="text" class="form-control" />
+        <input asp-for="telefone" type="text" class="form-control" placeholder="(00) 00000-0000" />
         <span class="text-danger" asp-validation-for="telefone"></span>
     </div>
 
@@ -46,17 +46,12 @@
         <span class="@ViewBag.classe">@ViewBag.mensagem</span>
     </div>
 
-    <div class="form-group row mt-3">
-        <div class="col-3">
-            <button type="submit" class="btn btn-success">
-                Salvar
-            </button>
-        </div>
-        <div class="col-3">
-            <a asp-action="Index" asp-controller="Cliente" class="btn btn-success">
-                Novo
-            </a>
-        </div>
+    <div class="form-buttons">
+        <button type="submit" class="btn btn-primary">
+            Salvar
+        </button>
+        <a asp-action="Index" asp-controller="Cliente" class="btn btn-primary">
+            Limpar
+        </a>
     </div>
-
 </form>

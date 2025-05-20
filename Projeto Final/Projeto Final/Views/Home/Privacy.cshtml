@@ -1,6 +1,50 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Política de Privacidade";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<link rel="stylesheet" href="~/css/views.css" />
+
+<div class="privacy-container">
+    <h1 class="privacy-title">@ViewData["Title"]</h1>
+
+    <div class="privacy-content">
+        <section class="privacy-section">
+            <h2>1. Coleta de Dados</h2>
+            <p>Coletamos apenas informações necessárias para o funcionamento do sistema (como nome, e-mail e dados de login). Todos os dados são armazenados de forma segura e usados apenas para fins acadêmicos.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2>2. Uso das Informações</h2>
+            <p>Os dados são utilizados exclusivamente para:</p>
+            <ul>
+                <li>Autenticação de usuários</li>
+                <li>Operações internas do sistema (agendamentos, cadastros, etc.)</li>
+                <li>Melhorar a experiência do usuário</li>
+            </ul>
+        </section>
+
+        <section class="privacy-section">
+            <h2>3. Proteção de Dados</h2>
+            <p>Implementamos medidas de segurança básicas (como senhas criptografadas). Nenhum dado será compartilhado com terceiros.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2>4. Cookies</h2>
+            <p>Utilizamos cookies apenas para manter sessões de login. Você pode desativá-los nas configurações do navegador.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2>5. Direitos do Usuário</h2>
+            <p>Você pode solicitar a exclusão de seus dados a qualquer momento através do e-mail: <a href="mailto:gustavopirondi@toledoprudente.edu.br">gustavopirondi@toledoprudente.edu.br</a>.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2>6. Isenção de Responsabilidade</h2>
+            <p>Este é um projeto acadêmico desenvolvido por Gustavo Pirondi. Não nos responsabilizamos por uso indevido por terceiros.</p>
+        </section>
+
+        <div class="privacy-footer">
+            <p>Última atualização: @DateTime.Now.ToString("dd/MM/yyyy")</p>
+        </div>
+    </div>
+</div>

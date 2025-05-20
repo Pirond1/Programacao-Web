@@ -1,13 +1,14 @@
 ﻿@model ProjetoFinal.DTOs.PagamentoDTO
+
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Pagamento";
 }
 
 <h1>Pagamento</h1>
 
-<div class="col-3">
+<div class="form-actions mb-4">
     <a asp-action="Listar" asp-controller="Pagamento"
-       class="btn btn-info">
+       class="btn btn-list">
         Listar
     </a>
 </div>
@@ -17,26 +18,22 @@
 
     <div class="form-group">
         <label asp-for="descricao"></label>
-        <input type="text" asp-for="descricao" class="form-control" />
+        <input type="text" asp-for="descricao" class="form-control" placeholder="Descrição" />
         <span class="text-danger" asp-validation-for="descricao">
         </span>
     </div>
 
-    <div>
+    <div class ="form-message">
         <span class="@ViewBag.classe">@ViewBag.mensagem</span>
     </div>
 
-    <div class="form-group row mt-3">
-        <div class="col-3">
-            <button type="submit" class="btn btn-success">
-                Salvar
-            </button>
-        </div>
-        <div class="col-3">
-            <a asp-action="Index" asp-controller="Pagamento" class="btn btn-success">
-                Novo
-            </a>
-        </div>
+    <div class="form-buttons">
+        <button type="submit" class="btn btn-primary">
+            Salvar
+        </button>
+        <a asp-action="Index" asp-controller="Pagamento" class="btn btn-primary">
+            Limpar
+        </a>
     </div>
 </form>
 

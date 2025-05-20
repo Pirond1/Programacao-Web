@@ -17,12 +17,11 @@ namespace ProjetoFinal.DTOs
 
         [Display(Name = "CPF")]
         [Required(ErrorMessage = "O CPF é obrigatória")]
-        [StringLength(11, MinimumLength = 11, ErrorMessage = "O CPF deve conter 11 caracteres")]
+        [StringLength(14, MinimumLength = 11, ErrorMessage = "O CPF deve conter 14 caracteres (Considerando '.' e '-')")]
         public string cpf { get; set; }
 
         [Display(Name = "Telefone")]
         [Required(ErrorMessage = "O Telefone é obrigatória")]
-        [StringLength(11, MinimumLength = 10, ErrorMessage = "O Telefone deve ter entre 10 e 11 caracteres")]
         public string telefone { get; set; }
 
         [Display(Name = "Data de Nascimento")]

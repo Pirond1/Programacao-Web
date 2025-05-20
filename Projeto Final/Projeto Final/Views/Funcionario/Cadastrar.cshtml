@@ -3,6 +3,7 @@
 @{
     Layout = null;
 }
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -12,26 +13,27 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/views.css" />
 
     <title>Login</title>
 </head>
-<body>
-    <div class="container">
-        <h1>Funcionário</h1>
+<body class="login-page">
+    <div class="login-container">
+        <h1 class="login-title">Funcionário</h1>
 
         <form asp-action="Salvar" asp-controller="Funcionario" method="post">
             <input type="hidden" asp-for="id" />
 
             <div class="form-group">
                 <label asp-for="nome"></label>
-                <input type="text" asp-for="nome" class="form-control" />
+                <input type="text" asp-for="nome" class="form-control" placeholder="Nome" />
                 <span class="text-danger" asp-validation-for="nome">
                 </span>
             </div>
 
             <div class="form-group">
                 <label asp-for="usuario"></label>
-                <input type="text" asp-for="usuario" class="form-control" />
+                <input type="text" asp-for="usuario" class="form-control" placeholder="Usuário" />
                 <span class="text-danger" asp-validation-for="usuario">
 
                 </span>
@@ -39,13 +41,13 @@
 
             <div class="form-group">
                 <label asp-for="senha"></label>
-                <input asp-for="senha" type="password" class="form-control" />
+                <input asp-for="senha" type="password" class="form-control" placeholder="Senha" />
                 <span class="text-danger" asp-validation-for="senha"></span>
             </div>
 
             <div class="form-group">
                 <label asp-for="salario"></label>
-                <input asp-for="salario" type="number" class="form-control" />
+                <input asp-for="salario" type="number" class="form-control" placeholder="Salário" />
                 <span class="text-danger" asp-validation-for="salario"></span>
             </div>
 
@@ -57,9 +59,11 @@
 
             <div class="form-group">
                 <label asp-for="idArea"></label>
-                <select asp-for="idArea" class="form-control" asp-items="@(IEnumerable<SelectListItem>)ViewBag.listaArea">
-                    <option value="">Escolha uma categoria</option>
-                </select>
+                <div class="select-container">
+                    <select asp-for="idArea" class="form-control" asp-items="@(IEnumerable<SelectListItem>)ViewBag.listaArea">
+                        <option value="">Escolha uma categoria</option>
+                    </select>
+                </div>
                 <span class="text-danger" asp-validation-for="idArea"></span>
             </div>
 
@@ -67,14 +71,14 @@
                 <span class="@ViewBag.classe">@ViewBag.mensagem</span>
             </div>
 
-            <div class="form-group row mt-3">
-                <div class="col-3">
-                    <button type="submit" class="btn btn-success">
+            <div class="form-group row mt-4">
+                <div class="col-md-6 mb-2 mb-md-0">
+                    <button type="submit" class="btn btn-success login-btn">
                         Salvar
                     </button>
                 </div>
-                <div class="col-3">
-                    <a asp-action="Login" asp-controller="Funcionario" class="btn btn-success">
+                <div class="col-md-6 mb-2 mb-md-0">
+                    <a asp-action="Login" asp-controller="Funcionario" class="btn btn-success login-btn">
                         Logar
                     </a>
                 </div>

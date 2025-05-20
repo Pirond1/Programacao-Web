@@ -1,13 +1,13 @@
 ﻿@model ProjetoFinal.DTOs.FuncionarioDTO
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Funcionário";
 }
 
 <h1>Funcionário</h1>
 
-<div class="col-3">
+<div class="form-actions mb-4">
     <a asp-action="Listar" asp-controller="Funcionario"
-       class="btn btn-info">
+       class="btn btn-list">
         Listar
     </a>
 </div>
@@ -17,14 +17,14 @@
 
     <div class="form-group">
         <label asp-for="nome"></label>
-        <input type="text" asp-for="nome" class="form-control" />
+        <input type="text" asp-for="nome" class="form-control" placeholder="Nome" />
         <span class="text-danger" asp-validation-for="nome">
         </span>
     </div>
 
     <div class="form-group">
         <label asp-for="usuario"></label>
-        <input type="text" asp-for="usuario" class="form-control" />
+        <input type="text" asp-for="usuario" class="form-control" placeholder="Usuário" />
         <span class="text-danger" asp-validation-for="usuario">
 
         </span>
@@ -32,13 +32,13 @@
 
     <div class="form-group">
         <label asp-for="senha"></label>
-        <input asp-for="senha" type="password" class="form-control" />
+        <input asp-for="senha" type="password" class="form-control" placeholder="Senha" />
         <span class="text-danger" asp-validation-for="senha"></span>
     </div>
 
     <div class="form-group">
         <label asp-for="salario"></label>
-        <input asp-for="salario" type="number" class="form-control" />
+        <input asp-for="salario" type="number" class="form-control" placeholder="Salário" />
         <span class="text-danger" asp-validation-for="salario"></span>
     </div>
 
@@ -50,27 +50,25 @@
 
     <div class="form-group">
         <label asp-for="idArea"></label>
-        <select asp-for="idArea" class="form-control" asp-items="@(IEnumerable<SelectListItem>)ViewBag.listaArea">
-            <option value="">Escolha uma categoria</option>
-        </select>
+        <div class="select-container">
+            <select asp-for="idArea" class="form-control" asp-items="@(IEnumerable<SelectListItem>)ViewBag.listaArea">
+                <option value="">Escolha uma categoria</option>
+            </select>
+        </div>
         <span class="text-danger" asp-validation-for="idArea"></span>
     </div>
 
-    <div>
+    <div class="form-message">
         <span class="@ViewBag.classe">@ViewBag.mensagem</span>
     </div>
 
-    <div class="form-group row mt-3">
-        <div class="col-3">
-            <button type="submit" class="btn btn-success">
-                Salvar
-            </button>
-        </div>
-        <div class="col-3">
-            <a asp-action="Index" asp-controller="Funcionario" class="btn btn-success">
-                Novo
-            </a>
-        </div>
+    <div class="form-buttons">
+        <button type="submit" class="btn btn-primary">
+            Salvar
+        </button>
+        <a asp-action="Index" asp-controller="Funcionario" class="btn btn-primary">
+            Limpar
+        </a>
     </div>
 
 </form>

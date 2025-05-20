@@ -28,7 +28,7 @@ namespace InfraEstrutura.Contexto
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //Server -> LAB10-15 ou PC-SMARTGAMER
-            optionsBuilder.UseSqlServer("Server=LAB10-15; Database=ProjetoClinica; integrated security=true; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=PC-SMARTGAMER; Database=ProjetoClinica; integrated security=true; TrustServerCertificate=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

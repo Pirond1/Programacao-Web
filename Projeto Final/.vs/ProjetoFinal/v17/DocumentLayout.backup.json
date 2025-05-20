@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\views\\area\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\views\\area\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\configuration\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\configuration\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5544CE-DB19-4DCA-B902-9E73D6355726}|Repositorio\\Repository.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\repositorio\\arearepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5544CE-DB19-4DCA-B902-9E73D6355726}|Repositorio\\Repository.csproj|solutionrelative:repositorio\\arearepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C260819-A80C-4F3E-84D0-EDBF806CDE55}|Interfaces\\Interfaces.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\interfaces\\repository\\iarearepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C260819-A80C-4F3E-84D0-EDBF806CDE55}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\repository\\iarearepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\models\\areamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\models\\areamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C260819-A80C-4F3E-84D0-EDBF806CDE55}|Interfaces\\Interfaces.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\interfaces\\models\\iareamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C260819-A80C-4F3E-84D0-EDBF806CDE55}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\models\\iareamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\wwwroot\\css\\views.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\wwwroot\\css\\views.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Configuration\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Projeto Final\\Configuration\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Configuration\\MappingProfile.cs",
-              "RelativeToolTip": "Projeto Final\\Configuration\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:30:12.498Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Program.cs",
-              "RelativeDocumentMoniker": "Projeto Final\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Program.cs",
-              "RelativeToolTip": "Projeto Final\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T22:00:27.654Z",
+              "Title": "Listar.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Views\\Area\\Listar.cshtml",
+              "RelativeDocumentMoniker": "Projeto Final\\Views\\Area\\Listar.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Views\\Area\\Listar.cshtml",
+              "RelativeToolTip": "Projeto Final\\Views\\Area\\Listar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T19:44:40.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FuncionarioController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Controllers\\FuncionarioController.cs",
-              "RelativeDocumentMoniker": "Projeto Final\\Controllers\\FuncionarioController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Controllers\\FuncionarioController.cs",
-              "RelativeToolTip": "Projeto Final\\Controllers\\FuncionarioController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T21:37:43.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAreaModels.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Models\\IAreaModels.cs",
-              "RelativeDocumentMoniker": "Interfaces\\Models\\IAreaModels.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Models\\IAreaModels.cs",
-              "RelativeToolTip": "Interfaces\\Models\\IAreaModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:37:29.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AreaModels.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Models\\AreaModels.cs",
-              "RelativeDocumentMoniker": "Projeto Final\\Models\\AreaModels.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Models\\AreaModels.cs",
-              "RelativeToolTip": "Projeto Final\\Models\\AreaModels.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T21:54:12.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IAreaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Repository\\IAreaRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\Repository\\IAreaRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Interfaces\\Repository\\IAreaRepository.cs",
-              "RelativeToolTip": "Interfaces\\Repository\\IAreaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T21:54:20.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AreaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\AreaRepository.cs",
-              "RelativeDocumentMoniker": "Repositorio\\AreaRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Repositorio\\AreaRepository.cs",
-              "RelativeToolTip": "Repositorio\\AreaRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCoAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T21:54:25.32Z",
+              "DocumentIndex": 1,
+              "Title": "views.css",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\wwwroot\\css\\views.css",
+              "RelativeDocumentMoniker": "Projeto Final\\wwwroot\\css\\views.css",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\wwwroot\\css\\views.css",
+              "RelativeToolTip": "Projeto Final\\wwwroot\\css\\views.css",
+              "ViewState": "AgIAAHQBAAAAAAAAAADwv4gBAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-20T17:05:29.809Z",
               "EditorCaption": ""
             }
           ]

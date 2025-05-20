@@ -5,40 +5,48 @@
 
 <h1>Listar</h1>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">Código</th>
-            <th scope="col">Descrição</th>
-            <th scope="col">Alterar</th>
-            <th scope="col">Excluir</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+<div class="list-actions">
+    <a asp-action="Index" asp-controller="Pagamento" class="btn btn-primary">
+        Novo
+    </a>
+</div>
+
+<div class="table-responsive">
+    <table class="list-table">
+        <thead>
             <tr>
-                <th scope="row">@item.id</th>
-                <td>@item.descricao</td>
-                <td>
-                    <a asp-action="PreAlterar"
-                       asp-controller="Pagamento"
-                       asp-route-id="@item.id"
-                       class="btn btn-success">Alterar</a>
-                </td>
-                <td>
-                    <form asp-action="Excluir" asp-controller="Pagamento"
-                          asp-route-id="@item.id" method="get">
-
-                        <button type="submit" class="btn btn-danger"
-                                onclick="return confirm('Confirma a exclusão?') ">
-                            Excluir
-                        </button>
-                    </form>
-
-
-                </td>
+                <th>Código</th>
+                <th>Descrição</th>
+                <th>Alterar</th>
+                <th>Excluir</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@item.id</th>
+                    <td>@item.descricao</td>
+                    <td>
+                        <a asp-action="PreAlterar"
+                           asp-controller="Pagamento"
+                           asp-route-id="@item.id"
+                           class="btn btn-edit">Alterar</a>
+                    </td>
+                    <td>
+                        <form asp-action="Excluir" asp-controller="Pagamento"
+                              asp-route-id="@item.id" method="get" class="delete-form">
+
+                            <button type="submit" class="btn btn-edit"
+                                    onclick="return confirm('Confirma a exclusão?') ">
+                                Excluir
+                            </button>
+                        </form>
+
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
