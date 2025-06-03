@@ -23,12 +23,11 @@ namespace InfraEstrutura.Contexto
         public DbSet<Cliente> clientes { get; set; }
         public DbSet<Funcionario> funcionarios { get; set; }
         public DbSet<Pagamento> pagamentos { get; set; }
-        public DbSet<ConsultaFuncionario> consultafuncionarios { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //Server -> LAB10-15 ou PC-SMARTGAMER
-            optionsBuilder.UseSqlServer("Server=LAB10-15; Database=ProjetoClinica; integrated security=true; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=PC-SMARTGAMER; Database=ProjetoClinica; integrated security=true; TrustServerCertificate=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -75,16 +74,10 @@ namespace InfraEstrutura.Contexto
                 ent.HasKey(p => p.id);
                 ent.ToTable("Consulta");
                 //Relacionamento
+                ent.HasOne(p => p.funcionario).WithMany(p => p.consultas).HasForeignKey(p => p.idFuncionario).HasConstraintName("FK_Consulta_Funcionario").OnDelete(DeleteBehavior.NoAction);
                 ent.HasOne(p => p.servico).WithMany(p => p.consultas).HasForeignKey(p => p.idServico).HasConstraintName("FK_Consulta_Serviço").OnDelete(DeleteBehavior.NoAction);
                 ent.HasOne(p => p.cliente).WithMany(p => p.consultas).HasForeignKey(p => p.idCliente).HasConstraintName("FK_Consulta_Cliente").OnDelete(DeleteBehavior.NoAction);
                 ent.HasOne(p => p.pagamento).WithMany(p => p.consultas).HasForeignKey(p => p.idPagamento).HasConstraintName("FK_Consulta_Pagamento").OnDelete(DeleteBehavior.NoAction);
-            });
-
-            modelBuilder.Entity<ConsultaFuncionario>(ent =>
-            {
-                ent.HasKey(p => new { p.consultaId, p.funcionarioId });
-                ent.HasOne(p => p.consulta).WithMany(p => p.consultaFuncionarios).HasForeignKey(p => p.consultaId).HasConstraintName("FK_ConsultaFuncionario_Consulta").OnDelete(DeleteBehavior.NoAction);
-                ent.HasOne(p => p.funcionario).WithMany(p => p.consultaFuncionarios).HasForeignKey(p => p.funcionarioId).HasConstraintName("FK_ConsultaFuncionario_Funcionario").OnDelete(DeleteBehavior.NoAction);
             });
             
         }

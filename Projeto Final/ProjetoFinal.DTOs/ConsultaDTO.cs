@@ -17,6 +17,7 @@ namespace ProjetoFinal.DTOs
 
         [Display(Name = "Data da Consulta")]
         [Required(ErrorMessage = "A Data da Consulta é obrigatória")]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy HH:mm}", ApplyFormatInEditMode = true)]
         public DateTime dataConsulta { get; set; }
 
         [Display(Name = "Valor Total")]
@@ -24,7 +25,7 @@ namespace ProjetoFinal.DTOs
         [Range(0, int.MaxValue, ErrorMessage = "O Valor deve ser Positivo")]
         public decimal valorTotal { get; set; }
 
-        [Display(Name = "Seriço")]
+        [Display(Name = "Serviço")]
         [Required(ErrorMessage = "O Serviço é obrigatória")]
         public int? idServico { get; set; }
 

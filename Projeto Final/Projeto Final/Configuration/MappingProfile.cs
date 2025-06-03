@@ -10,6 +10,7 @@ namespace ProjetoFinal.Configuration
         {
             CreateMap<Area, AreaDTO>().ReverseMap();
             CreateMap<Cliente, ClienteDTO>().ReverseMap();
+            CreateMap<Consulta, ConsultaDTO>().ReverseMap();
             CreateMap<Funcionario, FuncionarioDTO>().ReverseMap();
             CreateMap<Pagamento, PagamentoDTO>().ReverseMap();
             CreateMap<Servico, ServicoDTO>().ReverseMap();

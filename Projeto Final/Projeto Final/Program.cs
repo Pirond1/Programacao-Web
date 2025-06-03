@@ -23,6 +23,9 @@ builder.Services.AddScoped<IAreaRepository, AreaRepository>();
 builder.Services.AddScoped<IClienteModels, ClienteModels>();
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 
+builder.Services.AddScoped<IConsultaModels, ConsultaModels>();
+builder.Services.AddScoped<IConsultaRepository, ConsultaRepository>();
+
 builder.Services.AddScoped<IFuncionarioModels, FuncionarioModels>();
 builder.Services.AddScoped<IFuncionarioRepository, FuncionarioRepository>();
 

@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\views\\area\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\views\\area\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|c:\\users\\user\\documents\\github\\programacao-web\\projeto final\\projeto final\\wwwroot\\css\\views.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3D7F744D-D3C9-4812-9C08-0C435163F58E}|Projeto Final\\Projeto Final.csproj|solutionrelative:projeto final\\wwwroot\\css\\views.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Listar.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Views\\Area\\Listar.cshtml",
-              "RelativeDocumentMoniker": "Projeto Final\\Views\\Area\\Listar.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\Views\\Area\\Listar.cshtml",
-              "RelativeToolTip": "Projeto Final\\Views\\Area\\Listar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T19:44:40.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "views.css",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\wwwroot\\css\\views.css",
-              "RelativeDocumentMoniker": "Projeto Final\\wwwroot\\css\\views.css",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programacao-Web\\Projeto Final\\Projeto Final\\wwwroot\\css\\views.css",
-              "RelativeToolTip": "Projeto Final\\wwwroot\\css\\views.css",
-              "ViewState": "AgIAAHQBAAAAAAAAAADwv4gBAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-20T17:05:29.809Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

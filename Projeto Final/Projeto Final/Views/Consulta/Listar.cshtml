@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ProjetoFinal.DTOs.ConsultaDTO>
+@{
+    ViewData["Title"] = "Listar";
+}
+
+<h1>Listar</h1>
+
+<div class="list-actions">
+    <a asp-action="Index" asp-controller="Consulta" class="btn btn-primary">
+        Novo
+    </a>
+</div>
+
+<div class="table-responsive">
+    <table class="list-table">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Horas</th>
+                <th>Data da Consulta</th>
+                <th>Valor Total</th>
+                <th>ID Funcionario</th>
+                <th>ID Serviço</th>
+                <th>ID Cliente</th>
+                <th>ID Pagamento</th>
+                <th>Alterar</th>
+                <th>Excluir</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@item.id</th>
+                    <td>@item.horas</td>
+                    <td>@item.dataConsulta</td>
+                    <td>@item.valorTotal</td>
+                    <td>@item.idFuncionario</td>
+                    <td>@item.idServico</td>
+                    <td>@item.idCliente</td>
+                    <td>@item.idPagamento</td>
+                    <td>
+                        <a asp-action="PreAlterar"
+                           asp-controller="Consulta"
+                           asp-route-id="@item.id"
+                           class="btn btn-edit">Alterar</a>
+                    </td>
+                    <td>
+                        <form asp-action="Excluir" asp-controller="Consulta"
+                              asp-route-id="@item.id" method="get" class="delete-form">
+
+                            <button type="submit" class="btn btn-edit"
+                                    onclick="return confirm('Confirma a exclusão?') ">
+                                Excluir
+                            </button>
+                        </form>
+
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
